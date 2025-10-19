@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/bornja55/RAG-LLM-Platform.git)",
+      "Bash(mkdir -p docs backend frontend scripts .github/workflows)",
+      "Bash(mv architecture-doc.md database-readme.md dev-tasks.md deployment-guide.md flows-*.md cost-analysis.md db-migrations.md install-guide.md docs/)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
